@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+nav {
+    position: fixed;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+    justify-content: center;
+    height: 60px;
+}
+
+#controls {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 1);
+    padding: 10px;
+    border-radius: 5px;
+}
+button {
+    margin-right: 10px;
+}
+
+.titlespan {
+    font-weight: bold;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3em;
+}
+
+.one {
+    margin-right: -500px;
+}
+
+.two {
+    margin-left: -500px;
+}
+
+
+nav {
+    justify-content: space-evenly;
+}
+
+/* Clean black and white style controls */
+
+#controls button {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#controls button:hover {
+    background: black;
+    color: white;
+}
+
+#controls button:active {
+    background: black;
+    color: white;
+}
+
+#controls button:disabled {
+    background: lightgrey;
+    color: grey;
+    cursor: not-allowed;
+}
+
+/* Clean black and white style slider */
+
+#slider {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+img {
+    width: 10%;
+}
+
+.wrap {
+    display: flex;
+    align-items: end;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    color: black;
+    z-index: 100;
+}
+
+footer h1 {
+    margin-right: 20px;
+    font-size: 1.3em;
+}
+
+.rotateBtn {
+    background-color: #000;
+    position: fixed;
+    z-index: 200;
+    top: 94%;
+    left: 46%;
+    color: #FFF;
+    padding: 8px 24px;
+    border-radius: 16px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: .2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.dg.main {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 30%;
+    background-color: transparent !important;
+    color: #000 !important;
+    border: none !important; /* Remove border if any */
+}
+
+select {
+    border: none !important;
+}
+
+.dg.main .cr {
+    background-color: transparent !important;
+}
+
+.dg.main .cr.string, 
+.dg.main .cr.number, 
+.dg.main .cr.boolean {
+    color: #000 !important;
+}
+
+.dg.main .c input[type="text"], 
+.dg.main .c input[type="number"],
+.dg.main .c input[type="input"],
+.dg.main .c select {
+    background-color: transparent !important;
+    color: #000 !important;
+}
+
+.close-bottom {
+    background-color: transparent !important;
+    color: #ddd;
+    display: none;
+}
+
+.property-name {
+    color: #000 !important;
+}
+
+.cr.color {
+    color: #000 !important;
+}
+
+.cr.number.has-slider {
+    color: #000 !important;
+}
+
+
+
+
+.dg.main .title {
+    background-color: transparent !important;
+    color: #000 !important;
+}
+
+.dg.main .close-button {
+    color: #000 !important;
+}
+
+.dg.main .slider {
+    background-color: #ccc !important;
+    height: 10px !important;
+    border-radius: 5px !important;
+}
+
+.dg.main .slider-fg {
+    background-color: #000000 !important; /* Change to your desired color */
+    border-radius: 5px !important;
+}
+
+.dg.main .slider-bg {
+    background-color: #ddd !important;
+    border-radius: 5px !important;
+}
+
+.dg.main .c input[type="color"] {
+    background-color: #555 !important;
+    border-radius: 5px !important;
+    width: 100% !important;
+    height: 20px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.dg.main .property-name {
+    color: #000 !important; /* Change to your desired color */
+    font-weight: normal !important; /* Optional: Make the text bold */
+    font-size: 14px !important; /* Optional: Change the font size */
+}
+
+.cr {
+    border: none !important;
+}
+
+.title {
+    font-size: 1.2em;
+    letter-spacing: .2em;
+}
